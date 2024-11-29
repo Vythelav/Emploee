@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp1.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window3" Height="450" Width="800" Background="Bisque">
+    <Grid>
+        <Label Content="Администратор" HorizontalAlignment="Left" VerticalAlignment="Top" Width="168" FontSize="20" Margin="10,11,0,0" Height="39"/>
+        <DataGrid Margin="157,50,28,44">
+
+        </DataGrid>
+        <Button Content="Выйти" HorizontalAlignment="Center" Margin="680,395,0,0" VerticalAlignment="Center" Width="92" Click="Button_Click" Background="#FFFF2C2C" Height="29" FontSize="24"/>
+        <Button Content="Добавить сотрудника" HorizontalAlignment="Left" Margin="4,355,0,0" VerticalAlignment="Top" Width="148" Background="CadetBlue"/>
+        <Button Content="Удалить сотрудника" HorizontalAlignment="Left" Margin="4,380,0,0" VerticalAlignment="Top" Width="148" RenderTransformOrigin="-1.297,-0.645" Background="CadetBlue"/>
+    </Grid>
+</Window>
